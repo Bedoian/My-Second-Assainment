@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;1,100;1,200;1,300;1,700;1,800&display=swap');
+
+
+/* nav related style */
+nav a {
+    text-decoration: none;
+}
+
+nav li {
+    list-style: none;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+nav>ul {
+    display: flex;
+    gap: 44px;
+    margin-top: 40px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 135px;
+    margin-right: 127px;
+}
+
+.main-title {
+    color: #131318;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+span {
+    color: #FF5400;
+}
+#travel-icon{
+    margin-top: 100px;
+}
+input {
+    border-radius: 8px;
+    background: #FFF;
+    width: 174px;
+    height: 48px;
+    flex-shrink: 0;
+    border: 1px solid white;
+}
+
+.input-container {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 750px;
+    height: 75px;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 3px;
+    position: relative;
+    left: 163px;
+    top: 100px;
+    
+}
+
+.banner-container {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("banner.png");
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+
+}
+
+.banner-heading {
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+.banner-discription {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.banner-content{
+    position: relative;
+    top: 70px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
