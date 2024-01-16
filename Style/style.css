@@ -160,6 +160,7 @@ button {
     flex-shrink: 0;
 }
 
+/* 
 .text1 {
     position: relative;
     left: 240px;
@@ -188,35 +189,117 @@ button {
     position: relative;
     left: 80px;
     top: 200px;
-}
-
+} */
+/* 
 .text {
     color: white;
     font-size: 28px;
     font-weight: 600;
     font-family: 'Work Sans', sans-serif;
-}
-
+} */
+/* destination style starts from here */
 .first-row img {
     width: 573px;
     height: 300px;
     flex-shrink: 0;
+
 }
 
 .first-row {
     display: flex;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
+
+}
+
+.img1 {
+    margin-right: 10px;
+}
+
+.img7 {
+    margin-right: 7px;
+}
+
+.img3 {
+    margin-right: 10px;
+}
+
+.img4 {
+    margin-right: 10px;
 }
 
 .second-row {
     display: flex;
     margin-top: 0px;
+    margin-bottom: 10px;
 }
 
-.destination-img img {
-    gap: 40px;
+.destination-container p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
 
+.destination-container {
+    width: 1160px;
+}
+
+.third-row {
+    display: flex;
+}
+
+/* text style here */
+.text {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+#text-1 {
+    position: relative;
+    bottom: 760px;
+    right: 300px;
+}
+
+#text-2 {
+    position: relative;
+    bottom: 800px;
+    left: 300px;
+}
+
+#text-3 {
+    position: relative;
+    bottom: 530px;
+    right: 375px;
+}
+
+#text-4 {
+    position: relative;
+    bottom: 565px;
+    left: 50px;
+}
+
+#text-5 {
+    position: relative;
+    bottom: 600px;
+    left: 420px;
+}
+
+#text-6 {
+    position: relative;
+    bottom: 330px;
+    right: 350px;
+}
+
+#text-7 {
+    position: relative;
+    bottom: 340px;
+    left: 270px;
+}
 
 /* why choose us section style */
 .hotel-services {
@@ -427,9 +510,67 @@ hr {
     left: 342px;
     bottom: 210px;
 }
-.subscribe-container{
+
+.subscribe-container {
     display: flex;
     margin-top: 100px;
     width: 1170px;
     justify-content: space-between;
+}
+
+.vidio-container h2 {
+    color: #131318;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.vidio-container p {
+    color: #5A5A5D;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.vidio-container ul {
+    color: #131318;
+    line-height: 26px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.vidio-container {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+
+.vidio img {
+    position: relative;
+    top: 70px;
+    width: 610px;
+    height: 424px;
+    flex-shrink: 0;
+}
+
+.container-text {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    position: relative;
+    right: 600px;
+    width: 450px;
+    height: 280px;
+    padding: 40px;
+    top: 100px;
+}
+.deals-container{
+    display: flex;
+    justify-content: center;
 }
